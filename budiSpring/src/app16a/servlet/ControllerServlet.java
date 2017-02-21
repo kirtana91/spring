@@ -54,9 +54,9 @@ public class ControllerServlet extends HttpServlet {
 		}
 		String dispatchUrl = null;
 		if (action.equals("product_input.action")) {
-			dispatchUrl = "/WEB-INF/jsp/ProductForm.jsp";
+			dispatchUrl = "/app16a/jsp/ProductForm.jsp";
 		} else if (action.equals("product_save.action")) {
-			dispatchUrl = "/WEB-INF/jsp/ProductDetails.jsp";
+			dispatchUrl = "/app16a/jsp/ProductDetails.jsp";
 		}
 		if (dispatchUrl != null) {
 			RequestDispatcher rd = request.getRequestDispatcher(dispatchUrl);
